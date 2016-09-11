@@ -1,21 +1,10 @@
 ﻿using Microsoft.IoT.Lightning.Providers;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Devices.Pwm;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Core;
-using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -30,8 +19,6 @@ namespace PwmTest
         private CoreDispatcher _dispatcher;
         private PwmPin _pwm0Pin;
         private PwmPin _pwm1Pin;
-
-        private bool _finish;
 
         public MainPage()
         {
@@ -66,18 +53,17 @@ namespace PwmTest
             _dispatcher = CoreWindow.GetForCurrentThread().Dispatcher;
 
             _worker = new BackgroundWorker();
-            _worker.DoWork += DoWork;
+            _worker.DoWork += SetupPWM;
             _worker.RunWorkerAsync();
         }
 
         private void MainPage_Unloaded(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            _finish = true;
             _pwm0Pin.Stop();
             _pwm1Pin.Stop();
         }
 
-        private async void DoWork(object sender, DoWorkEventArgs e)
+        private async void SetupPWM(object sender, DoWorkEventArgs e)
         {
             if (LightningProvider.IsLightningEnabled)
             {
