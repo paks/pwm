@@ -22,3 +22,4 @@ Raspberry PI 2/3
 ## Notes
 
 The PwmTest project has the code to setup two GPIOs (13,18) for PWM output. When the application runs, it displays 2 sliders to control the GPIO out put. 
+The TestL298NMotorController has a scree with sliders and buttons to test each of the motors attached to a [L298N](https://www.amazon.com/DROK-Controller-H-Bridge-Mega2560-Duemilanove/dp/B00CAG6GX2) Motor Drive Controller. This test includes using PWM outputs to control the motor speed.
