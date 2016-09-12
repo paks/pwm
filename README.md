@@ -24,6 +24,7 @@ Raspberry PI 2/3
 The PwmTest project has the code to setup two GPIOs (13,18) for PWM output. When the application runs, it displays 2 sliders to control the GPIO output. 
 
 Here is a table with the GPIO pins that can be used for PWM:
+
 | GPIO | PWM channel | Harware supported                      |
 |:----:|:-----------:|---------------------------------------:|
 |   12 |      0      | A+/B+/Pi2/Zero and compute module only |
