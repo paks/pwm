@@ -39,4 +39,4 @@ Here is a [table](http://raspberrypi.stackexchange.com/a/40816) with the GPIO pi
 |   53 |      1      | Compute module only                    |
 
 
-The TestL298NMotorController has a screen with sliders and buttons to test each of the motors attached to a [L298N](https://www.amazon.com/DROK-Controller-H-Bridge-Mega2560-Duemilanove/dp/B00CAG6GX2) Motor Drive Controller. This test includes using PWM outputs to control the motor speed.
+The TestL298NMotorController project has a screen with sliders and buttons to test each of the motors attached to a [L298N](https://www.amazon.com/DROK-Controller-H-Bridge-Mega2560-Duemilanove/dp/B00CAG6GX2) Motor Drive Controller. This test includes using PWM outputs to control the motor speed. This project was helpful when building the [Windows 10 Iot Rover](https://www.hackster.io/peejster/rover-c42139?f=1#)
