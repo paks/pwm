@@ -27,10 +27,10 @@ Here is a table with the GPIO pins that can be used for PWM:
 
 | GPIO | PWM channel | Harware supported                      |
 |:----:|:-----------:|---------------------------------------:|
-|   12 |      0      | A+/B+/Pi2/Zero and compute module only |
-|   13 |      1      | A+/B+/Pi2/Zero and compute module only |
+|   12 |      0      | A+/B+/Pi2/Pi3/Zero and compute module only |
+|   13 |      1      | A+/B+/Pi2/Pi3/Zero and compute module only |
 |   18 |      0      | All models                             |
-|   19 |      1      | A+/B+/Pi2/Zero and compute module only |
+|   19 |      1      | A+/B+/Pi2/Pi3/Zero and compute module only |
 |      |             |                                        |
 |   40 |      0      | Compute module only                    |
 |   41 |      1      | Compute module only                    |
