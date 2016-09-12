@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwmTest", "PwmTest\PwmTest.csproj", "{D5377846-F8D2-4C75-BE8B-BF01BAAF7F4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestL298NMotorController", "TestL298NMotorController\TestL298NMotorController.csproj", "{3881C177-3EBD-47C2-A4D5-D63B7C04271B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,24 @@ Global
 		{D5377846-F8D2-4C75-BE8B-BF01BAAF7F4F}.Release|x86.ActiveCfg = Release|x86
 		{D5377846-F8D2-4C75-BE8B-BF01BAAF7F4F}.Release|x86.Build.0 = Release|x86
 		{D5377846-F8D2-4C75-BE8B-BF01BAAF7F4F}.Release|x86.Deploy.0 = Release|x86
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Debug|ARM.Build.0 = Debug|ARM
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Debug|x64.ActiveCfg = Debug|x64
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Debug|x64.Build.0 = Debug|x64
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Debug|x64.Deploy.0 = Debug|x64
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Debug|x86.ActiveCfg = Debug|x86
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Debug|x86.Build.0 = Debug|x86
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Debug|x86.Deploy.0 = Debug|x86
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Release|ARM.ActiveCfg = Release|ARM
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Release|ARM.Build.0 = Release|ARM
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Release|ARM.Deploy.0 = Release|ARM
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Release|x64.ActiveCfg = Release|x64
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Release|x64.Build.0 = Release|x64
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Release|x64.Deploy.0 = Release|x64
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Release|x86.ActiveCfg = Release|x86
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Release|x86.Build.0 = Release|x86
+		{3881C177-3EBD-47C2-A4D5-D63B7C04271B}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

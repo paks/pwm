@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="TestL298NMotorController.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestL298NMotorController"
+    RequestedTheme="Light">
+
+</Application>
